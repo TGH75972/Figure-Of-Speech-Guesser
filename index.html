@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure of Speech Identifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Identify the Figure of Speech</h1>
+        <p id="poetic-line"></p>
+        <form id="quiz-form">
+            <input type="text" id="answer" placeholder="Enter figure of speech" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="feedback"></p>
+        <button id="next-btn" style="display:none;">Next</button>
+        <div id="result" style="display:none;">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <p id="feedback-result"></p>
+            <button onclick="location.reload()">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
